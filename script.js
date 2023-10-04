@@ -8,7 +8,7 @@ var person = {
         return document.onkeydown = function (key) {
             if (key.key === 'a')
             {
-                return 0;
+                alert(key.key)
             }
         }
     }
