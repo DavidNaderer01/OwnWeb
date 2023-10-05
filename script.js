@@ -1,4 +1,4 @@
 
 document.onkeydown = (key) => {
-    alert(key);
+    alert(key.key);
 }
