@@ -1,4 +1,4 @@
 
 document.onkeydown = (key) => {
-    alert(key.key);
+    document.getElementById("text").innerHTML = key.key;
 }
