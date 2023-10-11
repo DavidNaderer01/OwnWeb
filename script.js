@@ -1,10 +1,10 @@
-var date = new Date();
+const date = new Date();
 
-document.getElementById("header").innerHTML = date.getDate() + "." + date.getMonth() + "." + date.getFullYear();
+document.getElementById("header").innerHTML = date.getDate().toString() + "." + date.getMonth().toString() + "." + date.getFullYear().toString();
 
-var children = document.getElementById("headersection").children;
+let children = document.getElementById("header section").children;
 
-var span = document.createElement("span");
+let span = document.createElement("span");
 span.innerHTML = "This is a try";
 
 children.item(1).appendChild(span);
