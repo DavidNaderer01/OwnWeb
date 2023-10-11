@@ -1,6 +1,6 @@
 const date = new Date();
 
-document.getElementById("header").innerHTML = date.getDate().toString() + "." + date.getMonth().toString() + "." + date.getFullYear().toString();
+document.getElementById("header").textContent = date.getDate().toString() + "." + date.getMonth().toString() + "." + date.getFullYear().toString();
 
 let children = document.getElementById("header section").children;
 
