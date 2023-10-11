@@ -1,4 +1,2 @@
 
-document.onkeydown = (key) => {
-    document.getElementById("text").innerHTML = key.key;
-}
+document.getElementById("header").innerHTML = Date.now().toString();
