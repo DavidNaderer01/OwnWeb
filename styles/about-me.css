@@ -1,0 +1,12 @@
+table tbody tr:not(table tr:last-child) {
+    border-bottom: 2px black solid;
+}
+
+table tbody tr td:first-child {
+    padding-right: 2rem;
+}
+
+table tbody{
+    flex-direction: column;
+    display: flex;
+}

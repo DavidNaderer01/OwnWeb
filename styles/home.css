@@ -1,0 +1,20 @@
+#description {
+    width: 70%;
+}
+
+.box p {
+    padding-block: 0.4rem;
+}
+
+#stats {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-items: center;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
